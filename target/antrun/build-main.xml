@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>---------开始复制jar包到共享目录下----------</echo>
+  <delete file="E:/hadooptools/dataguru-hadoop-kpi-1.0-SNAPSHOT.jar"></delete>
+  <copy file="target/dataguru-hadoop-kpi-1.0-SNAPSHOT.jar" toDir="E:/hadooptools/"></copy>
+</target>
+</project>
